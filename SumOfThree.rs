@@ -36,7 +36,7 @@ impl Solution {
 }
 
 fn main() {
-    let nums = vec![-1, 0, 1, 2, -1, -4];
-    let sol = Solution::new();
-    println!("{:?}", sol.three_sum(nums));
+    let nums = vec![-1, 0, 1, 2, -1, -4]; //test
+    let sol = Solution::three_sum(nums);
+    println!("{:?}", sol);
 }
